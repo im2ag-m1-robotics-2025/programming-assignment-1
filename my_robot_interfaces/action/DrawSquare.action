@@ -1,0 +1,11 @@
+# Goal
+float32 side_length  # Length of square side
+float32 velocity     # Linear velocity
+---
+# Result
+bool success         # Whether the operation was successful
+string message       # Informational message
+---
+# Feedback
+int32 side_completed # Number of sides completed (0-4)
+float32 percent_complete # Percentage of the total square completed

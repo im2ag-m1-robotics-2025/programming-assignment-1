@@ -1,0 +1,7 @@
+# Request
+float32 side_length  # Length of square side
+float32 velocity     # Linear velocity
+---
+# Response
+bool success         # Whether the operation was successful
+string message       # Informational message
